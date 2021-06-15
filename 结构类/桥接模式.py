@@ -12,7 +12,7 @@
 
 
 
-def main():
+def main(List):
     ...
 
 
