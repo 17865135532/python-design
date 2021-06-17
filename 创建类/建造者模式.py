@@ -189,13 +189,10 @@ def main():
 
 
 # 建造者模式：
-#
-
 # food: food1, food2, food3
 # Order
 # OrderBuilder
 # order: order1, order2, order3
-
 
 if __name__ == '__main__':
     main()
