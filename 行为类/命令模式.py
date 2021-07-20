@@ -144,7 +144,7 @@ def main():
     menu.loadMenu()
     #
     for dish in dish_list:
-        if menu.isMain(dish):
+        if menu.isCool(dish):
             cmd = CoolDishCommand(cool_food_sys, dish)
             print(f"cmd: {cmd}")
         elif menu.isMain(dish):
